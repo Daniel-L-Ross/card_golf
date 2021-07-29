@@ -7,8 +7,9 @@ import json
 
 @csrf_exempt
 def login_user(request):
-    '''Handles the authentication of a brewer
-
+    '''
+    Handles the authentication of a user
+    Template code copied from Nashville Software School bootcamp projects
     Method arguments:
       request -- The full HTTP request object
     '''
@@ -35,8 +36,9 @@ def login_user(request):
 
 @csrf_exempt
 def register_user(request):
-    '''Handles the creation of a new brewer for authentication
-
+    '''Handles the creation of a new user for authentication
+    Template code copied from Nashville Software School bootcamp projects
+    
     Method arguments:
       request -- The full HTTP request object
     '''
